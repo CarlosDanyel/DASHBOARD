@@ -1,0 +1,43 @@
+.navegacao {
+  grid-area: nav;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+
+  box-shadow: 8px 12px 40px 0px rgba(241, 239, 255, 1);
+  background: rgba(255, 255, 255, 1);
+
+  border-radius: 0px 24px 24px 0px;
+
+  padding: 2.5rem;
+
+  color: #272727;
+
+  strong {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    padding: 20px;
+
+    span {
+      color: #9e6efe;
+    }
+  }
+
+  ul {
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    .line {
+      width: 100%;
+      height: 1px;
+      border: 2px solid #f2f6ff;
+    }
+  }
+}
